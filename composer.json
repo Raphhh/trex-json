@@ -1,0 +1,24 @@
+{
+    "name": "raphhh/trex-json",
+    "description": "PHP oriented object json encoder/decoder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphaël Lefebvre",
+            "email": "raphael@raphaellefebvre.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TRex\\Json\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-json": "*"
+    }
+}
